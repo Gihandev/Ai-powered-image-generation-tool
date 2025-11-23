@@ -1,59 +1,72 @@
-# Overview
-This is an image generation app supported by the latest OpenAI’s machine learning algorithms. The app employs state of the art tech that produces remarkable images with just simple actions.
+# AI Image Generator Website (React + Microsoft AI)
 
-## Demo
+A stunning **AI-powered image generation tool** built with **React** and **Tailwind CSS**.  
+Integrates with the **Microsoft AI Image API** to convert text prompts into high-quality visual art in seconds, featuring a modern UI and instant feedback via **React Toast**.
+
+<!-- REPLACE WITH YOUR ACTUAL SCREENSHOT -->
 ![Screenshot 2023-12-13 141453](https://github.com/it-21360978/AI-Promt/assets/99310585/3f054a80-7b82-42d4-a625-16ab8a0f8ead.png)
 
+---
 
+## 🚀 Features
+- 🤖 **Text-to-Image**: Generate unique images from text descriptions using Microsoft AI.
+- 🎨 **Modern UI**: Sleek, responsive interface designed with **Tailwind CSS**.
+- 🔔 **Interactive Feedback**: Real-time success/error notifications using **React Toast**.
+- 📥 **Download & Share**: Easily view and save generated images.
+- ⚡ **Fast Performance**: Optimized React architecture for quick API interactions.
 
-## Installation
+---
 
- repository clone:
+## 🛠 Tech Stack
 
+| Layer | Technology |
+|--------|-------------|
+| **Frontend** | React.js, JSX |
+| **Styling** | Tailwind CSS |
+| **AI Service** | Microsoft AI Image API (or OpenAI DALL·E via Azure) |
+| **Utilities** | React Toast (Notifications) |
+
+---
+
+## 📦 Setup Guide
+
+### 1. Clone Repository
 ```bash
-  git clone https://github.com/it-21360978/AI-Promt.git
+git clone https://github.com/Gihandev/Ai-powered-image-generation-tool.git
+
 
 ```
 
-> [!NOTE]
-> This Project is under development!and we're continuously working on improving its features and functionality.
-.
+### 2. Install Dependencies
+```bash
+cd Ai-image
+npm install
 
-> [!TIP]
-> Users Must Provide their API token to Generate Image.
->  we have exciting plans for future updates.
+```
 
-> [!IMPORTANT]
-> Your API keys are not stored in any Database.
-
-
-
-
-## Features
- - AI-Powered Image Generation: Utilize OpenAI’s advanced models to produce top-notch pictures.$ICENSE: You are free to use this item in any way that is lawful and with good intentions.
- - User-Friendly Interface: Intuitive and easy to use interfaces.
- - Save: It is easy to store  your work .
-
-## Dependencies
- - React js + Vite js
- - OpenAI API
- - Tailwind css
- - React-icons
- - React toastify
-
-## Author
-
-- [GIHAN SERASINGHE](https://github.com/it-21360978)
-
-# License
-## *This project is licensed under the MIT License. See the LICENSE file for details.
+### 3. Run Development Server
+```bash
+npm start
+```
 
 
-## 🔗 Links
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gihan-serasinghe-457033264)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/SrasingheG)
+
+## 🎥 Demo
+Live Website - https://ai-promt.vercel.app/
+
+---
+
+## ⚠️ Notes & Trade-offs
+- API Limits: Image generation depends on your Microsoft AI / Azure quota; excessive use may hit rate limits.
+- Environment Variables: Never commit your .env file to GitHub to keep your API keys secure.
+- Resolution: Generated image resolution depends on the specific model settings used in the API call.
+
+## 👨‍💻 Author
+
+Gihan Serasinghe
+
+- Portfolio: https://gihandev.vercel.app/
+- GitHub: https://github.com/Gihandev
 
 
-## Feedback
-
-If you have any feedback, please reach out to me at https://bit.ly/3M5AXuf
+If you like this project, please give it a ⭐!
